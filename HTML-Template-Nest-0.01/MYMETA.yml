@@ -1,0 +1,27 @@
+---
+abstract: 'manipulate a nested html template structure via a perl hash'
+author:
+  - 'Tom Gracey <tomgracey@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  FindBin: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.150005'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: HTML-Template-Nest
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: '0'
+  Data::Dumper: '0'
+  File::Spec: '0'
+  HTML::Template: '0'
+version: '0.01'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
